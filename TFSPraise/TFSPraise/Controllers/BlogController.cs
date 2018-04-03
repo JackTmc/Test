@@ -57,5 +57,10 @@ namespace TFSPraise.Controllers
             return RedirectToAction("Home", new { id = currentUser.IdentityID, page = 1 });
         }
 
+        public ActionResult Test()
+        {
+            return View();
+        }
+
     }
 }
